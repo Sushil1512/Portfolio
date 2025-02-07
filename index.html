@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pratik Naikawadi.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+	
+	<!------------------------------------------------------------------------- STYLE for testimonials ----------------------------------------------------------------------------------------->
+	<style>
+		/* Slideshow container */
+		.slideshow-container {
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+			overflow: hidden;
+		}
+	
+		/* Slide content */
+		.mySlides {
+			display: none;
+			position: relative;
+			text-align: center;
+		}
+	
+		/* Image styling */
+		.slideshow-container img {
+			height: 300px; /* Fixed height */
+			width: 100%; /* Full width */
+			object-fit: cover; /* Ensures proper image scaling */
+			border-radius: 15px;
+		}
+	
+		.textcon {
+    position: absolute;
+    top: 50%; /* Move to vertical center */
+    left: 50%; /* Move to horizontal center */
+    transform: translate(-50%, -50%); /* Center the content */
+    display: flex; /* Use Flexbox */
+    flex-direction: column; /* Keep the order of the elements */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center; /* Center elements vertically */
+    text-align: center; /* Align text inside each element */
+    padding: 20px; /* Add padding around the text */
+    border-radius: 10px; /* Rounded corners */
+    color: #ca2424; /* Text color */
+    width: 80%; /* Optional: Adjust width */
+}
+
+#feedback {
+    margin-bottom: 10px; /* Space between tags */
+    font-size: 20px; /* Adjust font size */
+}
+
+#feedbackgiver {
+    margin-bottom: 5px; /* Space between tags */
+    font-size: 20px; /* Slightly larger font */
+    font-weight: bold; /* Emphasize */
+}
+
+#feedbackjob {
+    font-size: 16px; /* Smaller font */
+    font-style: italic; /* Italicize for effect */
+}
+	
+		/* Next & previous buttons */
+		.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+			background: rgba(0, 0, 0, 0.5);
+		}
+	
+		.prev {
+			left: 0;
+		}
+	
+		.next {
+			right: 0;
+		}
+	
+		/* On hover, add a black background color */
+		.prev:hover, .next:hover {
+			background-color: rgba(0, 0, 0, 0.8);
+		}
+	
+		/* Dots/bullets/indicators */
+		.dot {
+			cursor: pointer;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+		}
+	
+		.active, .dot:hover {
+			background-color: #717171;
+		}
+	
+		/* Responsive adjustments */
+		@media only screen and (max-width: 600px) {
+			.text { font-size: 14px; }
+			.prev, .next { font-size: 14px; }
+		}
+	</style>
+
+<!------------------------------------------------------------------------- STYLE ----------------------------------------------------------------------------------------->
+   </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	 <!--------------------------------------------------------------------------NAVBAR ------------------------------------------------------------------------------------> 
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Sushil Kumar Patel</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+		
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <!-- <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li> -->
+	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Experience</span></a></li>
+	          <li class="nav-item"><a href="#recommendations-section" class="nav-link"><span>Recommendations</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section class="hero-wrap js-fullheight">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+          <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
+          	<div class="text text-center">
+          		<span class="subheading">Hi There! I am</span>
+		  				<h1>Sushil Kumar Patel</h1>
+			  				<h2>I'm a 
+								  <span
+								     class="txt-rotate"
+								     data-period="500"
+								     data-rotate='[ "Python Developer.", "Data Analyst.", "Full Stack Developer.", "Traveller." ]'></span>
+								</h2>
+							</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mouse">
+				<a href="#" class="mouse-icon">
+					<div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
+				</a>
+			</div>
+    </section>
+
+<!--------------------------------------------------------------------------ABOUT AND PROFILE PICTURE ------------------------------------------------------------------------------------>
+
+    <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex no-gutters">
+    			<div class="col-md-6 col-lg-6 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/ProfileImage.jpg);">
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		            <h2 class="mb-4">ABOUT ME</h2>
+		            <p><b>PYTHON DEVELOPER | DATA ANALYST | FULL STACK DEVELOPER : </b> <br>  I’m a passionate Frontend Developer with expertise in crafting intuitive and engaging digital experiences. Skilled in modern web technologies like ReactJS, Tailwind CSS, and Flask, I bring ideas to life using HTML5, CSS3, and JavaScript. <br>
+
+With a strong foundation in programming (C++, Python, Java) and database management (MySQL, PostgreSQL, SQLite), I create scalable, user-centric solutions. I’m also experienced in data visualization using tools like Pandas, Matplotlib, and Plotly, and thrive in collaborative environments with tools like Git, Figma, and AWS.</p>
+		            <ul class="about-info mt-4 px-md-0 px-2">
+		            	<li class="d-flex"><span>Name:</span> <span>Sushil Kumar Patel</span></li>
+		            	<li class="d-flex"><span>Date of birth:</span> <span>December 15, 2000</span></li>
+		            	<li class="d-flex"><span>Address:</span> <span>Prayagraj, Uttar Pradesh</span></li>
+		            	<!-- <li class="d-flex"><span>Zip code:</span> <span>1000</span></li> -->
+		            	<li class="d-flex"><span>Email:</span> <span>sushilpatel1512@gmail.com</span></li>
+		            	<li class="d-flex"><span>Phone: </span> <span>8875311038</span></li>
+		            </ul>
+		          </div>
+		        </div>
+	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text">
+              	<p class="mb-4">
+	                <span class="number" data-number="9">0</span>
+	                <span>Project complete</span>
+                </p>
+                <p><a href="https://drive.google.com/file/d/192KV6ISI7OrNgTSBcvFdmlhIgVUJIyE7/view?usp=drive_link" target="_blank" class="btn btn-primary py-3 px-3">Download CV</a></p>
+              </div>
+	          </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+<br>
+
+<!--------------------------------------------------------------------------CLIENTS I WORKED WITH ------------------------------------------------------------------------------------>
+
+
+<!--------------------------------------------------------------------------EDUCATION, EXPERIENCE, SKILLS AND AWARDS ------------------------------------------------------------------------------------>
+
+<!--------------------------------------------------------------------------EDUCATION ------------------------------------------------------------------------------------>
+
+    <section class="ftco-section ftco-no-pb goto-here" id="resume-section">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-3">
+				    <nav id="navi">
+					    <ul>
+					      <li><a href="#page-1">Education</a></li>
+					      <li><a href="#page-2">Experience</a></li>
+					      <li><a href="#page-3">Skills</a></li>
+					      <!-- <li><a href="#page-4">Awards</a></li> -->
+					    </ul>
+					  </nav>
+					</div>
+					<div class="col-md-9">
+					  <div id="page-1" class= "page one">
+					  	<h2 class="heading">EDUCATION</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2020-2024</span>
+		    					<h2>B.Tech in Computer Science Engineering</h2>
+		    					<span class="position">Indian Institute of Information Technology Vadodara</span>
+		    					<!-- <p>Master's Degree - Pursuing</p> -->
+	    					</div>
+	    				</div>
+	    				<div class="resume-wrap d-flex ftco-animate">
+	    					<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">2016-2017</span>
+		    					<h2>Class XII</h2>
+		    					<span class="position">Smt. D. Singh Inter College</span>
+		    					<p>Percentage: 78.62%</p>
+								
+		    				</div>
+	    				</div>
+	    		
+					  </div>
+<!--------------------------------------------------------------------------EDUCATION ENDS------------------------------------------------------------------------------------>
+
+<!--------------------------------------------------------------------------EXPERIENCE ------------------------------------------------------------------------------------>
+
+
+					  <div id="page-2" class= "page two">
+					  	<h2 class="heading">Experience</h2>
+					    <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span class="flaticon-ideas"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<!-- <span class="date">May 2024 - Present</span> -->
+		    					<h2>Research Internship</h2>
+		    					<span class="position">INTEGRATION OF BLOCKCHAIN AND O-RAN IN 5G NETWORKS, IIIT VADODARA</span>
+		    					<p>Familiarized with the implementation of Blockchain-enabled network/RAN-sharing within cellular networks</p>
+		    				</div>
+	    				</div>
+	    				
+<!--------------------------------------------------------------------------EXPERIENCE ENDS ------------------------------------------------------------------------------------>
+
+<!--------------------------------------------------------------------------SKILLS AND AWARDS ------------------------------------------------------------------------------------>
+
+
+					  </div>
+					  <div id="page-3" class= "page three">
+					  	<h2 class="heading">SKILLS</h2>
+					  	<div class="row progress-circle mb-5">
+					  		<div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">COMPETITIVE PROGRAMMING</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='90'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+						      </div>
+						    </div>
+
+						    <div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">Web Developement</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='80'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+
+						      </div>
+						    </div>
+
+						    <div class="col-lg-4 mb-4">
+						      <div class="bg-white rounded-lg shadow p-4">
+						        <h2 class="h5 font-weight-bold text-center mb-4">SCRUM/Data Analytics</h2>
+
+						        <!-- Progress bar 1 -->
+						        <div class="progress mx-auto" data-value='75'>
+						          <span class="progress-left">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <span class="progress-right">
+                        <span class="progress-bar border-primary"></span>
+						          </span>
+						          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+						            <div class="h2 font-weight-bold">75<sup class="small">%</sup></div>
+						          </div>
+						        </div>
+						        <!-- END -->
+						      </div>
+						    </div>
+					  	</div>
+					  	<div class="row">
+					  		<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>PYTHON</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+										    <span>90%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>C++</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+										    <span>85%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>JAVASCRIPT</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
+										    <span>95%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>REACT JS</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+										    <span>90%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>GIT/GITHUB</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+										    <span>70%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>REST API</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										    <span>80%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>Power BI & SQL</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										    <span>80%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>BOOTSTRAP</h3>
+										<div class="progress">
+										 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+										  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										    <span>80%</span>
+										  	</div>
+										</div>
+									</div>
+								</div>
+					  	</div>
+					  </div>
+					</div>
+			  </div>
+    	</div>
+    </section>
+<!--------------------------------------------------------------------------SKILLS AND AWARDS ENDS------------------------------------------------------------------------------------>
+    
+	<!--------------------------------------------------------------------------MY PROJECTS ------------------------------------------------------------------------------------>
+ 
+
+    <section class="ftco-section ftco-project" id="projects-section">
+    	<div class="container-fluid px-md-0">
+    		<div class="row no-gutters justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	
+            <h2 class="mb-4">MY PROJECTS</h2>
+            <p>Checkout my work!</p>
+          </div>
+        </div>
+    		<div class="row no-gutters">
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/PratikImages/E-commerce\ Dashboard.png);border: 3px solid black; border-radius: 15px;">
+    					<div class="overlay" style="border: 1px solid black; border-radius: 15px;"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="https://travelandtour-two.vercel.app/" target="_blank">TRAVEL AND TOUR</a></h3>
+	    					<span>WEB DEVELOPMENT</span>
+	    				</div>
+    				</div>
+  				</div>
+  				<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/PratikImages/Food\ sales\ dashboarrd.png); border: 3px solid black; border-radius: 15px;"">
+    					<div class="overlay" style="border: 1px solid black; border-radius: 15px;"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="https://bookly-lemon.vercel.app/" target="_blank">BOOKLY PROJECT</a></h3>
+	    					<span>WEB DEVELOPMENT</span>
+	    				</div>
+    				</div>
+  				</div>
+
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/PratikImages/SuperStore\ dashboard.png);border: 3px solid black; border-radius: 15px;"">
+    					<div class="overlay" style="border: 1px solid black; border-radius: 15px;"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="https://github.com/Sushil1512/market-basket-analysis" target="_blank">Market Basket Analysis </a></h3>
+	    					<span>Data Analyst</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/PratikImages/Food\ sales\ dashboard.png);border: 3px solid black; border-radius: 15px;"">
+    					<div class="overlay" style="border: 1px solid black; border-radius: 15px;"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="https://github.com/PratikNaikawadi/Excel---Food-Sales-Analysis/tree/main#-excel-food-sales-analysis-data-driven-business-insights" target="_blank">SPOTIFY PROJECT</a></h3>
+	    					<span>WEB DEVELOPMENT</span>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/PratikImages/AdventureImage.png);border: 3px solid black; border-radius: 15px;"">
+    					<div class="overlay" style="border: 1px solid black; border-radius: 15px;"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="https://github.com/PratikNaikawadi/AdventureWorks/tree/main?tab=readme-ov-file#adventureworks" target="_blank">LINK LIST</a></h3>
+	    					<span>WEB DEVELOPEMENT AND PYTHON</span>
+	    				</div>
+    				</div>
+    			</div>
+    			
+    		</div>
+    	</div>
+    </section>
+
+<!--------------------------------------------------------------------------SAMPLE DOCUMENTS------------------------------------------------------------------------------------>
+
+ 
+<!--------------------------------------------------------------------------Endorsement ------------------------------------------------------------------------------------>
+
+<div class="row justify-content-center mb-5 pb-3" id="recommendations-section">
+	<div class="col-md-7 heading-section text-center ftco-animate">
+		<h2 class="mb-4">RECOMMENDATIONS</h2>
+		<p>What are other's saying about me?</p>
+	</div>
+</div>
+		  
+
+<section class="testimonials-section">
+    <div class="slideshow-container">
+        <!-- Slide 1 -->
+        <div class="mySlides">
+            <img src="images/SolidYelBack.png" alt="Slide 1">
+            <div class="textcon">
+                <h5 id="feedback">Sushil did a research internship under me. He did a great job on researching on Integration of Blockchain and ORAN in 5G Networks. I was very pleased with the work done.</h5>
+				<h4 id="feedbackgiver">Dr. Bhupendra Kumar - PROJECT MENTOR</h4>
+            </div>
+        </div>
+        </div>
+
+        <!-- Navigation buttons -->
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    <!-- </div> -->
+
+    <!-- Dots for navigation -->
+    <div style="text-align:center; margin-top: 10px;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+</section>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+
+
+<!--------------------------------------------------------------------------CONTACT ME ------------------------------------------------------------------------------------>
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h2 class="mb-4">CONTACT ME</h2>
+            <p>Like what you see?? Let's get in touch and discuss further</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Address</h3>
+		            <p> Prayagraj , UTTAR PRADESH</p>
+		          </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Contact Number</h3>
+		            <p><a href="tel://8875311038">887XXXXXXX</a></p>
+	            </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Email Address</h3>
+		            <p><a href="mailto:sushilpatel1512@gmail.com">sushilpatel1512@gmail.com</a></p>
+		          </div>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box text-center p-4 shadow">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-linkedin"></span>
+          		</div>
+          		<div>
+	          		<h3 class="mb-4">Linkedin</h3>
+		            <p><a href="https://www.linkedin.com/in/sushilpatel1512" target="_blank">Sushil Kumar Patel</a></p>
+	            </div>
+	          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+<!--------------------------------------------------------------------------FOOTER ABOUT ------------------------------------------------------------------------------------>
+
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About</h2>
+              <p>Hi Sushil here - If You've scrolled this far, consider connecting with me on Linkedin. See you there! </p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="https://github.com/Sushil1512" target="_blank"><span class="icon-github"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.linkedin.com/in/sushilpatel1512/" target="_blank"><span class="icon-linkedin"></span></a></li>
+                <!-- <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li> -->
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="https://www.linkedin.com/in/sushilpatel1512/" target="_blank"><span class="icon-long-arrow-right mr-2"></span>Linkedin</a></li>
+                <li><a href="https://github.com/Sushil1512?tab=repositories&q=&type=&language=&sort=stargazers" target="_blank"><span class="icon-long-arrow-right mr-2"></span>Github</a></li>
+
+				<!-- TO DO : MAke a link of drive for your resume -->
+                <li><a href="https://drive.google.com/file/d/192KV6ISI7OrNgTSBcvFdmlhIgVUJIyE7/view?usp=drive_link" target="_blank"><span class="icon-long-arrow-right mr-2"></span>Resume</a></li>
+                <li><a href="#projects-section"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+                <li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Skills</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Requirements Analysis</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
+                <!-- <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Business Strategy</a></li> -->
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Python Developer</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Still Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">887XXXXXX</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">sushilpatel1512@gmail.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Created With Insane Amount Of Amazingness!! <span><i class="icon-heart color-danger" aria-hidden="true"></i></span> </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+<!--------------------------------------------------------------------------FOOTER ------------------------------------------------------------------------------------>
+
+<div id="ftco-loader" class="show fullscreen">
+	<svg class="circular" width="48px" height="48px">
+	<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+	<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
+    </svg>
+</div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
+
+
+
+
